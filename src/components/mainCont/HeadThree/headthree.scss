@@ -1,0 +1,124 @@
+.headthreeWrap{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    .h3-pt1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    .h3-inner{
+        display: flex;
+        align-content: center;
+        align-items: center;
+
+        .pe1{
+            font-weight: bold;
+            font-size: 14px;
+            font-family: "Lato Sans",sans-serif;
+            color: #336799;
+            margin: 0;
+            padding: 0;
+        }
+        .fown{
+            color: #336799;
+            margin-left: 5px;
+        }
+    }
+    .h4-inner{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin-left: 24px;
+        .pe1{
+            font-weight: bold;
+            font-size: 14px;
+            font-family: "Lato Sans",sans-serif;
+            color: #336799;
+            margin: 0;
+            padding: 0;
+        }
+        .fown{
+            color: #336799;
+            margin-left: 5px;
+        }
+    }
+
+
+    }
+
+    .searchBar{
+        height: 32px;
+        margin-left: 24px;
+        width: 196px;
+        border-radius: 30px;
+        border: 2px solid #336799;
+        align-self: center;
+        display: flex;
+        padding: 0px 10px;
+
+        .mesd{
+            color: #336799;
+            align-self: center;
+        }
+
+        .sr{
+            border: none;
+            width: 146px;
+            margin-left: 5px;
+        }
+    }
+
+    .viewing{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        // width: 100%;
+        margin-left: 98px;
+        .resfv{
+            font-size: 12px;
+            font-style: normal;
+            align-self: center;
+            padding: 0;
+            // width: 40%;
+            margin: 0;
+            font-family: "Lato Sans", sans-serif;
+            color: #777777;
+        }
+        .viewofone{
+            font-size: 12px;
+            // width: 40%;
+            font-weight: bold;
+            align-self: center;
+            padding: 0;
+            padding: 0px 5px;
+            margin: 0;
+            font-family: "Lato Sans", sans-serif;
+            color: #333333;
+        }
+
+        .arr{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            width: 34px;
+            margin-left: 20px;
+            .fade{
+                color: #FF6501;
+                opacity: .3;
+                align-self: center;
+            }
+            .norm{
+                color: #FF6501;
+                opacity: 1;
+                align-self: center;
+            }
+        }
+    }
+}
+input.sr:focus {
+    outline: none;
+  }

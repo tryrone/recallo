@@ -1,0 +1,21 @@
+
+.appwrap{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  img{
+    width: 100%;
+  }
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+}
+ul{
+  list-style: none;
+}
+li{
+  list-style: none;
+}

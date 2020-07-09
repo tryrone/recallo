@@ -1,0 +1,40 @@
+.main-ta-me{
+    height: 60vh;
+    overflow-y: scroll;
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+    .row-me{
+        padding: 0px 10px;
+        border-bottom: 1px solid #77777741;
+        padding-top: 26px;
+
+        col{
+            align-self: center;
+        }
+    }
+
+    .to{
+        font-size: 12px;
+        font-style: normal;
+        font-family: "Lato Sans",sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333333;
+    }
+    .to-3{
+        font-size: 12px;
+        font-style: normal;
+        font-family: "Lato Sans",sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333333;
+    }
+    .to-2{
+        font-size: 12px;
+        font-style: normal;
+        font-family: "Lato Sans",sans-serif;
+        color: #777777;
+    }
+}

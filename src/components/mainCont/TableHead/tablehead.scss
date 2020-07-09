@@ -1,0 +1,29 @@
+.tableheadWrap{
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    padding: 14px 24px;
+    .row-me{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+    }
+    .callDa{
+        display: flex;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        .tim{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            align-self: center;
+            font-weight: bold;
+            font-size: 12px;
+            font-family: "Lato Sans",sans-serif;
+            color: #777777;
+            margin-right: 5px;
+        }
+    }
+}

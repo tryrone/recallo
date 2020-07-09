@@ -1,0 +1,18 @@
+.sideheadWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 11px 28px;
+    .logo{
+        width: 156px;
+        height: 59px;
+    }
+    .bell{
+        width: 14px;
+        height: 14px;
+        align-self: center;
+        position: relative;
+        top: 3px;
+    }
+}

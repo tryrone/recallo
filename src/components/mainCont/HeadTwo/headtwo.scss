@@ -61,3 +61,10 @@
         }
     }
 }
+$small-screen:1200px;
+@media(max-width: $small-screen){
+    .headTwoCont{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

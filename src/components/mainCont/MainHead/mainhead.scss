@@ -144,3 +144,39 @@
         }
     }
 }
+
+$breakpoint-tablet: 768px;
+$larg-screen:1300px;
+$small-screen:1200px;
+// @media(min-width: $larg-screen){
+//     .smallHqamm{
+//         display: none;
+//     }
+// }
+
+@media(max-width: $breakpoint-tablet){
+    .mHeadWrap{
+        padding: 35px 20px;
+        justify-content: space-around;
+       
+        .heda-one{
+            .bg-num{
+                font-size: 14px;
+            }
+        }
+.head-two{
+    margin-left: 0px;
+}
+        .four{
+            display: none;
+        }
+        .head-three{
+            display: none;
+        }
+    }
+}
+@media(min-width:$small-screen){
+    .smallHqamm{
+          display: none;  
+    }
+}

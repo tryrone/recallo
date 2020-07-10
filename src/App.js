@@ -11,7 +11,7 @@ function App() {
       <Router>
     <div className="appwrap">
      <Sidebar/>
-    <Main/>
+    <Main/> 
     </div>
     </Router>
     </React.Fragment>

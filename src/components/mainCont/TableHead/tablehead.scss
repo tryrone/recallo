@@ -27,3 +27,12 @@
         }
     }
 }
+
+$small-screen:760px;
+@media(max-width: $small-screen){
+    .tableheadWrap{
+        .hide{
+            display:none;
+        }
+    }
+}

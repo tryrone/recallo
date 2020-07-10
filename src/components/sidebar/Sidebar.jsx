@@ -8,8 +8,9 @@ import LinkCont from '../sidebarCont/linkCont/LinkCont';
 export default class Sidebar extends Component {
     render() {
         return (
+            
             <div className="sideWrap">
-                <SideHead/>
+                <SideHead/> 
                 <div className="sidemain">
                     <div style={{display:'flex'}}>
                     <ManageCont/>

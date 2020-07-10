@@ -38,3 +38,13 @@
         color: #777777;
     }
 }
+
+
+$small-screen:760px;
+@media(max-width: $small-screen){
+    .main-ta-me{
+        .hide{
+            display:none
+        }
+    }
+}

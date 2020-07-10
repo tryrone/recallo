@@ -31,3 +31,9 @@
 .sideWrap::-webkit-scrollbar {
     display: none;
   }
+  $breakpoint-tablet: 1200px;
+  @media (max-width: $breakpoint-tablet) {
+  .sideWrap{
+      display: none;
+  } 
+}

@@ -18,15 +18,15 @@ export default class TableHead extends Component {
                         <p className="tim">Call duration</p>
                         <i style={{color:"#777777"}} className="fas fa-caret-down"></i>
                     </Col>
-                    <Col className="callDa">
+                    <Col className="callDa hide">
                         <p className="tim">Call status</p>
                         <i style={{color:"#777777"}} className="fas fa-caret-down"></i>
                     </Col>
-                    <Col className="callDa">
+                    <Col className="callDa hide">
                         <p className="tim">Profile category</p>
                         <i style={{color:"#777777"}} className="fas fa-caret-down"></i>
                     </Col>
-                    <Col className="callDa">
+                    <Col className="callDa hide">
                         <p className="tim">Action</p>
                     </Col>
                 </Row>

@@ -155,7 +155,7 @@ export default class TableMain extends Component {
                     <Col>
                         <p className="to">{item.dura}</p>
                     </Col>
-                    <Col>
+                    <Col className="hide">
                     <p 
                     style={{
                         background:`${item.callCol}`,
@@ -167,7 +167,7 @@ export default class TableMain extends Component {
                     }}
                 className="to-3">{item.callStat}</p>
                     </Col>
-                    <Col>
+                    <Col className="hide">
                     <p 
                     style={{
                         background:`${item.proCat}`,
@@ -178,7 +178,7 @@ export default class TableMain extends Component {
                     }}
                     className="to">Not yet profiled</p>
                     </Col>
-                    <Col>
+                    <Col className="hide">
                     <p 
                     style={{
                         color:`${item.action}`,

@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
 import {edit,arrowLeft} from '../../links';
+import SideHam from '../../sideHam/SideHam';
 import './mainhead.scss';
 
 export default class MainHead extends Component {
     render() {
         return (
             <div className="mHeadWrap">
+                <div
+                className="smallHqamm"
+                style={{
+                    alignSelf:"center",
+                    position:'relative',
+                    top:"-15px"
+                }}
+                >
+                <SideHam/>
+                </div>
                 <div className="heda-one">
                     <div className="inner-head-one">
                         <p className="sm-call">Calls</p>

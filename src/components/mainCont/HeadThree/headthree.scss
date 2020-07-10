@@ -122,3 +122,40 @@
 input.sr:focus {
     outline: none;
   }
+
+  $small-screen:760px;
+  @media(max-width: $small-screen){
+      .headthreeWrap{
+        .h3-pt1{
+            display: none;
+        }
+        .searchBar{
+            height: 32px;
+            margin-left: 24px;
+            width: 100px;
+            border-radius: 30px;
+            border: 2px solid #336799;
+            align-self: center;
+            display: flex;
+            padding: 0px 10px;
+    
+            .mesd{
+                color: #336799;
+                align-self: center;
+            }
+    
+            .sr{
+                border: none;
+                width: 60px;
+                margin-left: 2px;
+            }
+        }
+        .viewing{
+            // display: flex;
+            // align-content: center;
+            // align-items: center;
+            // // width: 100%;
+            margin-left: 18px;
+        }
+      }
+  }
